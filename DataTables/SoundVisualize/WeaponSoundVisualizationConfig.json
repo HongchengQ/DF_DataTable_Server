@@ -1,0 +1,6833 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "WeaponSoundVisualizationConfig",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'DataTable'",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'SoundVisualizationConfigRow'",
+        "ObjectPath": "/Script/GPGameplay"
+      }
+    },
+    "Rows": {
+      "突击步枪4-1": {
+        "Description": "HK416",
+        "bEnable": true,
+        "WeaponId": "18010000013",
+        "WeaponIdInt": 18010000013,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪4-2": {
+        "Description": "ASVAL",
+        "bEnable": true,
+        "WeaponId": "18010000037",
+        "WeaponIdInt": 18010000037,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 1.0
+          },
+          {
+            "Key": "1002",
+            "Value": 1.0
+          },
+          {
+            "Key": "1003",
+            "Value": 1.0
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 1000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 1000.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 2000.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 4000.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪3-1": {
+        "Description": "AUG",
+        "bEnable": true,
+        "WeaponId": "18010000015",
+        "WeaponIdInt": 18010000015,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪3-2": {
+        "Description": "AK12",
+        "bEnable": true,
+        "WeaponId": "18010000018",
+        "WeaponIdInt": 18010000018,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪3-3": {
+        "Description": "M4A1",
+        "bEnable": true,
+        "WeaponId": "18010000001",
+        "WeaponIdInt": 18010000001,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪3-4": {
+        "Description": "QBZ191",
+        "bEnable": true,
+        "WeaponId": "18010000038",
+        "WeaponIdInt": 18010000038,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪2-1": {
+        "Description": "AKM",
+        "bEnable": true,
+        "WeaponId": "18010000006",
+        "WeaponIdInt": 18010000006,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪2-2": {
+        "Description": "QBZ95",
+        "bEnable": true,
+        "WeaponId": "18010000008",
+        "WeaponIdInt": 18010000008,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪2-3": {
+        "Description": "SG552",
+        "bEnable": true,
+        "WeaponId": "18010000017",
+        "WeaponIdInt": 18010000017,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪1-1": {
+        "Description": "CAR15",
+        "bEnable": true,
+        "WeaponId": "18010000031",
+        "WeaponIdInt": 18010000031,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪1-2": {
+        "Description": "M16A2",
+        "bEnable": true,
+        "WeaponId": "18010000014",
+        "WeaponIdInt": 18010000014,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪1-3": {
+        "Description": "AK74U",
+        "bEnable": true,
+        "WeaponId": "18010000010",
+        "WeaponIdInt": 18010000010,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪": {
+        "Description": "PTR",
+        "bEnable": true,
+        "WeaponId": "18010000024",
+        "WeaponIdInt": 18010000024,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "突击步枪_0": {
+        "Description": "HK33",
+        "bEnable": true,
+        "WeaponId": "18010000025",
+        "WeaponIdInt": 18010000025,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "战斗步枪4-1": {
+        "Description": "Ash-12",
+        "bEnable": true,
+        "WeaponId": "18010000012",
+        "WeaponIdInt": 18010000012,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "战斗步枪4-2": {
+        "Description": "MCX",
+        "bEnable": true,
+        "WeaponId": "18010000016",
+        "WeaponIdInt": 18010000016,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "战斗步枪3-1": {
+        "Description": "M14",
+        "bEnable": true,
+        "WeaponId": "18050000005",
+        "WeaponIdInt": 18050000005,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "战斗步枪3-2": {
+        "Description": "Scar-H",
+        "bEnable": true,
+        "WeaponId": "18010000021",
+        "WeaponIdInt": 18010000021,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "战斗步枪2-1": {
+        "Description": "G3",
+        "bEnable": true,
+        "WeaponId": "18010000023",
+        "WeaponIdInt": 18010000023,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪4-1": {
+        "Description": "SR25",
+        "bEnable": true,
+        "WeaponId": "18050000007",
+        "WeaponIdInt": 18050000007,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪3-1": {
+        "Description": "SVD",
+        "bEnable": true,
+        "WeaponId": "18050000004",
+        "WeaponIdInt": 18050000004,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪3-2": {
+        "Description": "SKSM",
+        "bEnable": true,
+        "WeaponId": "18050000006",
+        "WeaponIdInt": 18050000006,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪3-3": {
+        "Description": "PSG",
+        "bEnable": true,
+        "WeaponId": "18050000031",
+        "WeaponIdInt": 18050000031,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪2-1": {
+        "Description": "VSS",
+        "bEnable": true,
+        "WeaponId": "18050000003",
+        "WeaponIdInt": 18050000003,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 1.0
+          },
+          {
+            "Key": "1002",
+            "Value": 1.0
+          },
+          {
+            "Key": "1003",
+            "Value": 1.0
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 1000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 1000.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 2000.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 4000.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪2-2": {
+        "Description": "Mini14",
+        "bEnable": true,
+        "WeaponId": "18050000002",
+        "WeaponIdInt": 18050000002,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "射手步枪2-3": {
+        "Description": "SR-9",
+        "bEnable": true,
+        "WeaponId": "18050000008",
+        "WeaponIdInt": 18050000008,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "轻机枪3-1": {
+        "Description": "FNMinimi",
+        "bEnable": true,
+        "WeaponId": "18040000002",
+        "WeaponIdInt": 18040000002,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "轻机枪3-11": {
+        "Description": "FNMinimi_Boss",
+        "bEnable": true,
+        "WeaponId": "18040000007",
+        "WeaponIdInt": 18040000007,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "轻机枪3-12": {
+        "Description": "FNMinimi_加特林",
+        "bEnable": true,
+        "WeaponId": "18040000007",
+        "WeaponIdInt": 18040000007,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "轻机枪3-2": {
+        "Description": "PKM",
+        "bEnable": true,
+        "WeaponId": "18040000001",
+        "WeaponIdInt": 18040000001,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "轻机枪3-3": {
+        "Description": "XM250",
+        "bEnable": true,
+        "WeaponId": "18040000003",
+        "WeaponIdInt": 18040000003,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "轻机枪3-4": {
+        "Description": "QJB201",
+        "bEnable": true,
+        "WeaponId": "18040000004",
+        "WeaponIdInt": 18040000004,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪4-1": {
+        "Description": "Vector",
+        "bEnable": true,
+        "WeaponId": "18020000003",
+        "WeaponIdInt": 18020000003,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪3-1": {
+        "Description": "P90",
+        "bEnable": true,
+        "WeaponId": "18020000002",
+        "WeaponIdInt": 18020000002,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪3-2": {
+        "Description": "SR3",
+        "bEnable": true,
+        "WeaponId": "18020000008",
+        "WeaponIdInt": 18020000008,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪2-1": {
+        "Description": "SMG45",
+        "bEnable": true,
+        "WeaponId": "18020000006",
+        "WeaponIdInt": 18020000006,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪2-2": {
+        "Description": "MP5",
+        "bEnable": true,
+        "WeaponId": "18020000001",
+        "WeaponIdInt": 18020000001,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪2-3": {
+        "Description": "PP19勇士",
+        "bEnable": true,
+        "WeaponId": "18020000009",
+        "WeaponIdInt": 18020000009,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪2-4": {
+        "Description": "mp7",
+        "bEnable": true,
+        "WeaponId": "18020000010",
+        "WeaponIdInt": 18020000010,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪1-1": {
+        "Description": "UZI",
+        "bEnable": true,
+        "WeaponId": "18020000004",
+        "WeaponIdInt": 18020000004,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "冲锋枪1-2": {
+        "Description": "PP19",
+        "bEnable": true,
+        "WeaponId": "18020000005",
+        "WeaponIdInt": 18020000005,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "狙击步枪4-1": {
+        "Description": "AWM",
+        "bEnable": true,
+        "WeaponId": "18060000011",
+        "WeaponIdInt": 18060000011,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.75
+          },
+          {
+            "Key": "1002",
+            "Value": 0.75
+          },
+          {
+            "Key": "1003",
+            "Value": 0.375
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 8000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 8000.0,
+            "MaxDistance": 16000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 16000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 32000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 32000.0,
+            "MaxDistance": 40000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "狙击步枪3-1": {
+        "Description": "M700",
+        "bEnable": true,
+        "WeaponId": "18060000009",
+        "WeaponIdInt": 18060000009,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "狙击步枪3-11": {
+        "Description": "M700德穆兰",
+        "bEnable": true,
+        "WeaponId": "18060000032",
+        "WeaponIdInt": 18060000032,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "狙击步枪2-1": {
+        "Description": "R93",
+        "bEnable": true,
+        "WeaponId": "18060000008",
+        "WeaponIdInt": 18060000008,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "狙击步枪2-2": {
+        "Description": "SV98M",
+        "bEnable": true,
+        "WeaponId": "18060000007",
+        "WeaponIdInt": 18060000007,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 18000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 18000.0,
+            "MaxDistance": 24000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 24000.0,
+            "MaxDistance": 30000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "霰弹枪3-1": {
+        "Description": "S12K",
+        "bEnable": true,
+        "WeaponId": "18030000002",
+        "WeaponIdInt": 18030000002,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "霰弹枪3-11": {
+        "Description": "S12K-BOSS",
+        "bEnable": true,
+        "WeaponId": "18030000003",
+        "WeaponIdInt": 18030000003,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "霰弹枪2-1": {
+        "Description": "BenelliM4",
+        "bEnable": true,
+        "WeaponId": "18030000001",
+        "WeaponIdInt": 18030000001,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "霰弹枪1-1": {
+        "Description": "M870",
+        "bEnable": true,
+        "WeaponId": "18030000004",
+        "WeaponIdInt": 18030000004,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.7
+          },
+          {
+            "Key": "1002",
+            "Value": 0.7
+          },
+          {
+            "Key": "1003",
+            "Value": 0.35
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-1": {
+        "Description": "G18C",
+        "bEnable": true,
+        "WeaponId": "18070000005",
+        "WeaponIdInt": 18070000005,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-2": {
+        "Description": "Colt Python左轮",
+        "bEnable": true,
+        "WeaponId": "18070000003",
+        "WeaponIdInt": 18070000003,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-3": {
+        "Description": "Desert Eagle沙鹰",
+        "bEnable": true,
+        "WeaponId": "18070000004",
+        "WeaponIdInt": 18070000004,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-4": {
+        "Description": "92FS",
+        "bEnable": true,
+        "WeaponId": "18070000006",
+        "WeaponIdInt": 18070000006,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-5": {
+        "Description": "CF98-A",
+        "bEnable": true,
+        "WeaponId": "18070000002",
+        "WeaponIdInt": 18070000002,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-55": {
+        "Description": "CF98-A-AI",
+        "bEnable": true,
+        "WeaponId": "18070000007",
+        "WeaponIdInt": 18070000007,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪2-6": {
+        "Description": "M1911",
+        "bEnable": true,
+        "WeaponId": "18070000033",
+        "WeaponIdInt": 18070000033,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "手枪1-1": {
+        "Description": "Glock17",
+        "bEnable": true,
+        "WeaponId": "18070000010",
+        "WeaponIdInt": 18070000010,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "特殊武器1": {
+        "Description": "复合弓",
+        "bEnable": true,
+        "WeaponId": "18150000001",
+        "WeaponIdInt": 18150000001,
+        "SilencerScalarMap": [
+          {
+            "Key": "1001",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1002",
+            "Value": 0.6667
+          },
+          {
+            "Key": "1003",
+            "Value": 0.3333
+          }
+        ],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 480.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 480.0,
+            "MaxDistance": 960.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 960.0,
+            "MaxDistance": 1440.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1440.0,
+            "MaxDistance": 1920.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 1920.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_5": {
+        "Description": "近战_base",
+        "bEnable": true,
+        "WeaponId": "18100000002",
+        "WeaponIdInt": 18100000002,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 400.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 400.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_9": {
+        "Description": "近战武器_ShadowKiller",
+        "bEnable": true,
+        "WeaponId": "18100000008",
+        "WeaponIdInt": 18100000008,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 400.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 400.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_10": {
+        "Description": "近战武器_怜悯",
+        "bEnable": true,
+        "WeaponId": "18100000010",
+        "WeaponIdInt": 18100000010,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 400.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 400.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_11": {
+        "Description": "近战武器_蝴蝶刀冷锋",
+        "bEnable": true,
+        "WeaponId": "18100000012",
+        "WeaponIdInt": 18100000012,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 400.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 400.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_3": {
+        "Description": "RPG-AI专用",
+        "bEnable": true,
+        "WeaponId": "18080000007",
+        "WeaponIdInt": 18080000007,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "24": {
+        "Description": "SKS",
+        "bEnable": true,
+        "WeaponId": "18050000001",
+        "WeaponIdInt": 18050000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "29": {
+        "Description": "CS/LR5",
+        "bEnable": true,
+        "WeaponId": "18060000001",
+        "WeaponIdInt": 18060000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "38": {
+        "Description": "RPG-7",
+        "bEnable": true,
+        "WeaponId": "18080000001",
+        "WeaponIdInt": 18080000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "39": {
+        "Description": "RPG-7-PVE",
+        "bEnable": true,
+        "WeaponId": "18080000002",
+        "WeaponIdInt": 18080000002,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "40": {
+        "Description": "AT-4 Launcher",
+        "bEnable": true,
+        "WeaponId": "18080000003",
+        "WeaponIdInt": 18080000003,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41": {
+        "Description": "Smoke Launcher",
+        "bEnable": true,
+        "WeaponId": "18080000004",
+        "WeaponIdInt": 18080000004,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_1": {
+        "Description": "【MS23】毒刺发射器",
+        "bEnable": true,
+        "WeaponId": "18080000005",
+        "WeaponIdInt": 18080000005,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_2": {
+        "Description": "针式导弹发射器",
+        "bEnable": true,
+        "WeaponId": "18080000006",
+        "WeaponIdInt": 18080000006,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_4": {
+        "Description": "镭射指示器",
+        "bEnable": false,
+        "WeaponId": "18080000008",
+        "WeaponIdInt": 18080000008,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_6": {
+        "Description": "反人员榴弹",
+        "bEnable": false,
+        "WeaponId": "18080000012",
+        "WeaponIdInt": 18080000012,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_7": {
+        "Description": "EMP榴弹",
+        "bEnable": false,
+        "WeaponId": "18080000013",
+        "WeaponIdInt": 18080000013,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "41_8": {
+        "Description": "标枪发射器",
+        "bEnable": false,
+        "WeaponId": "18080000014",
+        "WeaponIdInt": 18080000014,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 600.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 600.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1800.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1800.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "42": {
+        "Description": "Test Turret",
+        "bEnable": true,
+        "WeaponId": "18990000001",
+        "WeaponIdInt": 18990000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "43": {
+        "Description": "Test Turret 1",
+        "bEnable": true,
+        "WeaponId": "18990000002",
+        "WeaponIdInt": 18990000002,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "44": {
+        "Description": "Fixed Machine Gun",
+        "bEnable": true,
+        "WeaponId": "18990000003",
+        "WeaponIdInt": 18990000003,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "45": {
+        "Description": "Hummer Machine Gun",
+        "bEnable": true,
+        "WeaponId": "18990000004",
+        "WeaponIdInt": 18990000004,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "46": {
+        "Description": "Black Hawk Machine Gun",
+        "bEnable": true,
+        "WeaponId": "18990000005",
+        "WeaponIdInt": 18990000005,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "47": {
+        "Description": "Common Machine Gun",
+        "bEnable": true,
+        "WeaponId": "18120000001",
+        "WeaponIdInt": 18120000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "50": {
+        "Description": "Ledgend AK",
+        "bEnable": true,
+        "WeaponId": "18010000020",
+        "WeaponIdInt": 18010000020,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "52": {
+        "Description": "Micro-Uzi",
+        "bEnable": true,
+        "WeaponId": "18020000007",
+        "WeaponIdInt": 18020000007,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "53": {
+        "Description": "CZ805",
+        "bEnable": true,
+        "WeaponId": "18010000022",
+        "WeaponIdInt": 18010000022,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "55": {
+        "Description": "AKM—For Test",
+        "bEnable": true,
+        "WeaponId": "18010000030",
+        "WeaponIdInt": 18010000030,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "56": {
+        "Description": "SKS—For Test",
+        "bEnable": true,
+        "WeaponId": "18050000030",
+        "WeaponIdInt": 18050000030,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "5": {
+        "Description": "CS/LR17",
+        "bEnable": true,
+        "WeaponId": "18010000011",
+        "WeaponIdInt": 18010000011,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "12": {
+        "Description": "Tank Gun",
+        "bEnable": true,
+        "WeaponId": "18010001001",
+        "WeaponIdInt": 18010001001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 3000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 3000.0,
+            "MaxDistance": 6000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 6000.0,
+            "MaxDistance": 9000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 9000.0,
+            "MaxDistance": 12000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 12000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_None",
+        "bIsRed": true,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 1.75,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::None",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": false,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 0
+      },
+      "67_4": {
+        "Description": "红狼-手炮开火",
+        "bEnable": true,
+        "WeaponId": "18080000010",
+        "WeaponIdInt": 18080000010,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_0": {
+        "Description": "红狼-烟雾弹投掷",
+        "bEnable": true,
+        "WeaponId": "21010000014",
+        "WeaponIdInt": 21010000014,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_1": {
+        "Description": "蜂医-蜂巢烟雾弹投掷",
+        "bEnable": true,
+        "WeaponId": "21010000015",
+        "WeaponIdInt": 21010000015,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "59_0": {
+        "Description": "蜂医-无人机释放",
+        "bEnable": true,
+        "WeaponId": "21020300007",
+        "WeaponIdInt": 21020300007,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "59": {
+        "Description": "蜂医-蜂巢激素枪开火",
+        "bEnable": true,
+        "WeaponId": "18070000030",
+        "WeaponIdInt": 18070000030,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "60": {
+        "Description": "露娜-电击箭释放",
+        "bEnable": true,
+        "WeaponId": "18130000002",
+        "WeaponIdInt": 18130000002,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "61": {
+        "Description": "露娜-侦察箭释放",
+        "bEnable": true,
+        "WeaponId": "18130000001",
+        "WeaponIdInt": 18130000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "66": {
+        "Description": "露娜-破片手雷投掷、牧羊人-破片手雷",
+        "bEnable": true,
+        "WeaponId": "21010000001",
+        "WeaponIdInt": 21010000001,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "66_0": {
+        "Description": "牧羊人-陷阱",
+        "bEnable": true,
+        "WeaponId": "21020300006",
+        "WeaponIdInt": 21020300006,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "64": {
+        "Description": "威龙-虎蹲炮发射",
+        "bEnable": true,
+        "WeaponId": "18080000011",
+        "WeaponIdInt": 18080000011,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67": {
+        "Description": "威龙-投掷C4",
+        "bEnable": true,
+        "WeaponId": "21010000009",
+        "WeaponIdInt": 21010000009,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_5": {
+        "Description": "威龙-投掷C4",
+        "bEnable": true,
+        "WeaponId": "21010000012",
+        "WeaponIdInt": 21010000012,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_2": {
+        "Description": "猫女-闪光寻飞器丢出",
+        "bEnable": true,
+        "WeaponId": "21010000004",
+        "WeaponIdInt": 21010000004,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_3": {
+        "Description": "猫女-数据飞刀抛出",
+        "bEnable": true,
+        "WeaponId": "21010000003",
+        "WeaponIdInt": 21010000003,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_6": {
+        "Description": "David-速凝掩体",
+        "bEnable": true,
+        "WeaponId": "21010000005",
+        "WeaponIdInt": 21010000005,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_7": {
+        "Description": "David-巡飞弹",
+        "bEnable": true,
+        "WeaponId": "18080000009",
+        "WeaponIdInt": 18080000009,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 5000.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 5000.0,
+            "MaxDistance": 10000.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 10000.0,
+            "MaxDistance": 15000.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 15000.0,
+            "MaxDistance": 20000.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 20000.0,
+            "MaxDistance": 25000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": false,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_8": {
+        "Description": "David-燃烧弹",
+        "bEnable": true,
+        "WeaponId": "21010000006",
+        "WeaponIdInt": 21010000006,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_9": {
+        "Description": "蛊-致盲毒雾",
+        "bEnable": true,
+        "WeaponId": "21010000018",
+        "WeaponIdInt": 21010000018,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_10": {
+        "Description": "蛊-肾上腺素",
+        "bEnable": true,
+        "WeaponId": "21010000019",
+        "WeaponIdInt": 21010000019,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 560.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 560.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 1680.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1680.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 2800.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_11": {
+        "Description": "蛊-集群装置",
+        "bEnable": true,
+        "WeaponId": "21010000017",
+        "WeaponIdInt": 21010000017,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 3360.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 3360.0,
+            "MaxDistance": 4480.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 4480.0,
+            "MaxDistance": 5600.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "105": {
+        "Description": "盾哥-防爆盾近战",
+        "bEnable": true,
+        "WeaponId": "18100000011",
+        "WeaponIdInt": 18100000011,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 400.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 400.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1200.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1200.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "106": {
+        "Description": "盾哥-勾爪枪发射",
+        "bEnable": true,
+        "WeaponId": "18080000017",
+        "WeaponIdInt": 18080000017,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "107": {
+        "Description": "盾哥-铁丝网手雷投掷",
+        "bEnable": true,
+        "WeaponId": "21010000020",
+        "WeaponIdInt": 21010000020,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "107_0": {
+        "Description": "无名-旋刃飞行器",
+        "bEnable": true,
+        "WeaponId": "21010000024",
+        "WeaponIdInt": 21010000024,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 560.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 560.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 1680.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1680.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 2800.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "107_1": {
+        "Description": "无名-突破型闪光弹",
+        "bEnable": true,
+        "WeaponId": "21010000025 ",
+        "WeaponIdInt": 21010000025,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "115": {
+        "Description": "疾风-钻墙电刺",
+        "bEnable": true,
+        "WeaponId": "21010000027",
+        "WeaponIdInt": 21010000027,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 3360.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 3360.0,
+            "MaxDistance": 4480.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 4480.0,
+            "MaxDistance": 5600.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "107_2": {
+        "Description": "老登-脉冲手雷",
+        "bEnable": true,
+        "WeaponId": "21010000028",
+        "WeaponIdInt": 21010000028,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "67_12": {
+        "Description": "老登-无人鸟",
+        "bEnable": true,
+        "WeaponId": "21010000030",
+        "WeaponIdInt": 21010000030,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 560.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 560.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 1680.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1680.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 2800.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "66_1": {
+        "Description": "比特-哨兵母巢",
+        "bEnable": true,
+        "WeaponId": "21020300032",
+        "WeaponIdInt": 21020300032,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 560.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 560.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 1680.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1680.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 2800.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "66_2": {
+        "Description": "比特-智能烟雾",
+        "bEnable": true,
+        "WeaponId": "21020300034",
+        "WeaponIdInt": 21020300034,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 560.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 560.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 1680.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1680.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 2800.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "66_3": {
+        "Description": "比特-捕网蜘蛛",
+        "bEnable": true,
+        "WeaponId": "21010000031",
+        "WeaponIdInt": 21010000031,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 560.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 560.0,
+            "MaxDistance": 1120.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1120.0,
+            "MaxDistance": 1680.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 1680.0,
+            "MaxDistance": 2240.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 2240.0,
+            "MaxDistance": 2800.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      },
+      "66_4": {
+        "Description": "蝴蝶-遥控烟雾弹",
+        "bEnable": true,
+        "WeaponId": "21020300036",
+        "WeaponIdInt": 21020300036,
+        "SilencerScalarMap": [],
+        "DistanceInfoArray": [
+          {
+            "MinDistance": 0.0,
+            "MaxDistance": 800.0,
+            "DistanceLevel": 1
+          },
+          {
+            "MinDistance": 800.0,
+            "MaxDistance": 1600.0,
+            "DistanceLevel": 2
+          },
+          {
+            "MinDistance": 1600.0,
+            "MaxDistance": 2400.0,
+            "DistanceLevel": 3
+          },
+          {
+            "MinDistance": 2400.0,
+            "MaxDistance": 3200.0,
+            "DistanceLevel": 4
+          },
+          {
+            "MinDistance": 3200.0,
+            "MaxDistance": 4000.0,
+            "DistanceLevel": 5
+          }
+        ],
+        "Type": "ESoundVisualizationType::ESVT_Weapon_WeaponCommon",
+        "IconType": "ESoundTypeIcon::ESTI_Ability",
+        "bIsRed": false,
+        "Priority": 0,
+        "Duration": 1.75,
+        "TriggerCD": 2.5,
+        "bUseTimeLevelMap": false,
+        "DurationMap": [],
+        "TriggerCDMap": [],
+        "bAffectedByListenRange": true,
+        "AudioBlueprintType": "EGPAudioBlueprintType::Character_Skill",
+        "UnderWaterAffectScale": 1.0,
+        "bNotifyMyself": true,
+        "bCheckState": false,
+        "Duration_Myself": 1.5,
+        "SoundLevel_Myself": 2
+      }
+    }
+  }
+]
