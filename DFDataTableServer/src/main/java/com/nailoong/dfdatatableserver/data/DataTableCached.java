@@ -12,4 +12,7 @@ public class DataTableCached {
 
     // 字段映射
     public static HashMap<String, String> fieldMapping = new HashMap<>();
+
+    // 武器id与名称对照表
+    public static HashMap<Long, String> allWeaponIdNameTable = new HashMap<>();
 }

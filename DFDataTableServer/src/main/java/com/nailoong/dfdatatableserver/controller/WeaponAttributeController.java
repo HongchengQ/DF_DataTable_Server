@@ -1,7 +1,7 @@
 package com.nailoong.dfdatatableserver.controller;
 
+import com.nailoong.dfdatatableserver.data.DataTableCached;
 import com.nailoong.dfdatatableserver.data.json.WeaponAttributeTableConfig;
-import com.nailoong.dfdatatableserver.data.json.WeaponSoundVisualizationConfig;
 import com.nailoong.dfdatatableserver.model.EnhancedWeaponAttributeRow;
 import com.nailoong.dfdatatableserver.model.WeaponType;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,13 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
 import static com.nailoong.dfdatatableserver.data.DataTableCached.tableObjectMap;
-import static com.nailoong.dfdatatableserver.utils.Utils.isNumeric;
 
 @RestController
 @RequestMapping("/api/weapon/attributes")
@@ -30,42 +28,7 @@ public class WeaponAttributeController {
     @GetMapping("/index")
     public Map<Long, String> getAllWeaponTableIndex() {
 
-        HashMap<Long, String> weaponAttributeRowMap = new HashMap<>();
-        {
-            WeaponAttributeTableConfig weaponAttributeTableConfig =
-                    (WeaponAttributeTableConfig) tableObjectMap.get("WeaponAttributeTable");
-
-            for (String ketName : weaponAttributeTableConfig.getRows().keySet()) {
-                Long recId = weaponAttributeTableConfig.getRows().get(ketName).getRecId();
-                weaponAttributeRowMap.put(recId, ketName);
-            }
-        }
-
-        HashMap<Long, String> idNameMap = new HashMap<>();
-        {
-            WeaponSoundVisualizationConfig weaponSoundVisualizationConfig =
-                    (WeaponSoundVisualizationConfig) tableObjectMap.get("WeaponSoundVisualizationConfig");
-
-            for (WeaponSoundVisualizationConfig.SoundVisualizationRow row : weaponSoundVisualizationConfig.getRows().values()) {
-                idNameMap.put(row.getWeaponIdInt(), row.getDescription());
-            }
-        }
-
-        HashMap<Long, String> allWeaponTableIndex = new HashMap<>();
-
-        for (Long id : weaponAttributeRowMap.keySet()) {
-            if (idNameMap.containsKey(id)) {
-                allWeaponTableIndex.put(id, idNameMap.get(id));
-            } else {
-                String name = weaponAttributeRowMap.get(id);
-                // key 为纯数字的不要加入
-                if (!isNumeric(name)) {
-                    allWeaponTableIndex.put(id, name);
-                }
-            }
-        }
-
-        return allWeaponTableIndex;
+        return DataTableCached.allWeaponIdNameTable;
     }
 
     /**
@@ -108,7 +71,7 @@ public class WeaponAttributeController {
     /**
      * 根据RecId获取武器配置
      */
-    @GetMapping("/weapon/id/{recId}")
+    @GetMapping("/id/{recId}")
     public WeaponAttributeTableConfig.WeaponAttributeRow getWeaponByRecId(@PathVariable Long recId) throws IOException {
         return getAttributeTable().getRows().values().stream().filter(row ->
                 row.getRecId().equals(recId)).findFirst().orElse(null);

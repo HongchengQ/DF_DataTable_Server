@@ -19,9 +19,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import static com.nailoong.dfdatatableserver.data.DataTableCached.tableObjectMap;
 import static com.nailoong.dfdatatableserver.utils.CsvUtils.loadFieldMapping;
 import static com.nailoong.dfdatatableserver.utils.FileUtils.findFilesByExtension;
 import static com.nailoong.dfdatatableserver.utils.JsonUtils.replaceFieldNames;
+import static com.nailoong.dfdatatableserver.utils.Utils.isNumeric;
 
 @Slf4j
 @Component
@@ -37,13 +39,8 @@ class Run {
     public void init() throws IOException {
         loadAllDataTableFile();
         loadCsvFieldMapping();
+        loadWeaponIdNameTable();
 //        replaceAllDataTableFile();
-
-        // debug
-//        WeaponAttributeTable ww = (WeaponAttributeTable) DataTableConst.tableObjectMap.get("WeaponAttributeTable");
-//        if (ww != null) {
-//            log.warn(ww.getRows().toString());
-//        }
     }
 
     /**
@@ -79,6 +76,47 @@ class Run {
         File resourceFile = new ClassPathResource("static/mapping.csv").getFile();
 
         DataTableCached.fieldMapping = (HashMap<String, String>) loadFieldMapping(resourceFile);
+    }
+
+    /**
+     * 加载武器id与名称对照表(需要自己合成，给的文件没有专门的对照表)
+     */
+    static void loadWeaponIdNameTable() {
+        HashMap<Long, String> weaponAttributeRowMap = new HashMap<>();
+        {
+            WeaponAttributeTableConfig weaponAttributeTableConfig =
+                    (WeaponAttributeTableConfig) tableObjectMap.get("WeaponAttributeTable");
+
+            for (String ketName : weaponAttributeTableConfig.getRows().keySet()) {
+                Long recId = weaponAttributeTableConfig.getRows().get(ketName).getRecId();
+                weaponAttributeRowMap.put(recId, ketName);
+            }
+        }
+
+        HashMap<Long, String> idNameMap = new HashMap<>();
+        {
+            WeaponSoundVisualizationConfig weaponSoundVisualizationConfig =
+                    (WeaponSoundVisualizationConfig) tableObjectMap.get("WeaponSoundVisualizationConfig");
+
+            for (WeaponSoundVisualizationConfig.SoundVisualizationRow row : weaponSoundVisualizationConfig.getRows().values()) {
+                idNameMap.put(row.getWeaponIdInt(), row.getDescription());
+            }
+        }
+
+        HashMap<Long, String> allWeaponTableIndex = new HashMap<>();
+        for (Long id : weaponAttributeRowMap.keySet()) {
+            if (idNameMap.containsKey(id)) {
+                allWeaponTableIndex.put(id, idNameMap.get(id));
+            } else {
+                String name = weaponAttributeRowMap.get(id);
+                // key 为纯数字11位的的不要加入
+                if (name.length() != 11 && !isNumeric(name)) {
+                    allWeaponTableIndex.put(id, name);
+                }
+            }
+        }
+
+        DataTableCached.allWeaponIdNameTable.putAll(allWeaponTableIndex);
     }
 
     /**
