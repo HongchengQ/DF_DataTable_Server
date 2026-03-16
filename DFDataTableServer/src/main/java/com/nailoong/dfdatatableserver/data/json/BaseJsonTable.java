@@ -5,7 +5,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
+/**
+ * 获取基础信息用
+ */
 @Data
 @NoArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_EMPTY)

@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>武器基础属性配置表</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 400px 1fr;
+            gap: 30px;
+        }
+
+        /* 左侧列表面板 */
+        .weapon-list-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+        }
+
+        .panel-title {
+            color: #764ba2;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .search-box {
+            margin-bottom: 20px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.3);
+        }
+
+        .weapon-list {
+            list-style: none;
+        }
+
+        .weapon-item {
+            padding: 15px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-left: 4px solid transparent;
+        }
+
+        .weapon-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            border-left-color: #667eea;
+        }
+
+        .weapon-item.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-left-color: #ffd700;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .weapon-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .weapon-recid {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .weapon-item.active .weapon-recid {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        /* 右侧详情面板 */
+        .weapon-detail-panel {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+        }
+
+        .json-container {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            overflow-x: auto;
+        }
+
+        pre {
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #2d3748;
+            margin: 0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        .detail-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+
+        .detail-title {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .detail-recid {
+            font-size: 1em;
+            opacity: 0.9;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+        }
+
+        .detail-section {
+            margin-bottom: 30px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .error {
+            background: #ff4444;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+        }
+
+        .empty-state-icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        /* 滚动条样式 */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #764ba2;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 1200px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            .weapon-list-panel {
+                max-height: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>武器基础属性配置表</h1>
+            <p class="subtitle">前端只做演示用 后端部分功能未适配</p>
+        </header>
+
+        <div class="main-content">
+            <!-- 左侧武器列表 -->
+            <div class="weapon-list-panel">
+                <h2 class="panel-title">武器列表</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="搜索武器名称或 RecId...">
+                </div>
+                <ul class="weapon-list" id="weaponList">
+                    <li class="loading">加载中...</li>
+                </ul>
+            </div>
+
+            <!-- 右侧武器详情 -->
+            <div class="weapon-detail-panel" id="detailPanel">
+                <div class="empty-state">
+                    <div class="empty-state-icon">🔫</div>
+                    <h3>请从左侧选择一把武器查看详情</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // API 基础地址 - 使用相对路径
+        const API_BASE = '/api/weapon/attributes';
+        
+        // 全局状态
+        let weaponsData = {};
+        let selectedRecId = null;
+        let fieldMapping = {}; // 字段映射表
+
+        // DOM 元素
+        const weaponListEl = document.getElementById('weaponList');
+        const detailPanelEl = document.getElementById('detailPanel');
+        const searchInput = document.getElementById('searchInput');
+
+        // 初始化
+        async function init() {
+            try {
+                await loadFieldMapping();
+                await loadWeaponsIndex();
+            } catch (error) {
+                showError('加载失败：' + error.message);
+            }
+        }
+
+        // 加载字段映射表
+        async function loadFieldMapping() {
+            try {
+                console.log('正在加载字段映射表...');
+                const response = await fetch('/mapping.csv');
+                if (!response.ok) {
+                    console.warn('无法加载 mapping.csv，将使用原始字段名');
+                    return;
+                }
+                
+                const csvText = await response.text();
+                fieldMapping = parseCSV(csvText);
+                console.log('成功加载字段映射:', Object.keys(fieldMapping).length, '个字段');
+            } catch (error) {
+                console.warn('加载映射表失败:', error.message);
+            }
+        }
+
+        // 解析 CSV 内容为映射对象
+        function parseCSV(csvText) {
+            const mapping = {};
+            const lines = csvText.split('\n').filter(line => line.trim());
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i].trim();
+                
+                // 跳过空行和标题行
+                if (!line || line.startsWith('一、') || line.startsWith('二、')) continue;
+                
+                // 如果是新分类标题（包含中文逗号或顿号）
+                if (line.includes('、') && !line.includes(',')) continue;
+                
+                // 解析字段行
+                const parts = line.split(',').map(p => p.trim());
+                if (parts.length >= 2 && parts[0] && parts[1]) {
+                    mapping[parts[0]] = `${parts[1]} (${parts[0]})`;
+                }
+            }
+            
+            return mapping;
+        }
+
+        // 加载武器索引列表
+        async function loadWeaponsIndex() {
+            try {
+                console.log('正在加载武器列表...');
+                const response = await fetch(`${API_BASE}/index`);
+                console.log('响应状态:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                weaponsData = await response.json();
+                console.log('成功加载武器数量:', Object.keys(weaponsData).length);
+                renderWeaponList(weaponsData);
+            } catch (error) {
+                console.error('加载失败:', error);
+                weaponListEl.innerHTML = `<li class="error">加载失败：${error.message}<br><small>请确保后端服务已启动 (http://127.0.0.1:8080)</small></li>`;
+            }
+        }
+
+        // 渲染武器列表
+        function renderWeaponList(weapons) {
+            const entries = Object.entries(weapons);
+            
+            if (entries.length === 0) {
+                weaponListEl.innerHTML = '<li class="empty-state">暂无数据</li>';
+                return;
+            }
+
+            weaponListEl.innerHTML = entries.map(([recId, name]) => `
+                <li class="weapon-item" data-recid="${recId}">
+                    <div class="weapon-name">${escapeHtml(name)}</div>
+                    <div class="weapon-recid">RecId: ${recId}</div>
+                </li>
+            `).join('');
+
+            // 绑定点击事件
+            weaponListEl.querySelectorAll('.weapon-item').forEach(item => {
+                item.addEventListener('click', () => selectWeapon(item.dataset.recid));
+            });
+        }
+
+        // 选择武器
+        async function selectWeapon(recId) {
+            // 更新选中状态
+            document.querySelectorAll('.weapon-item').forEach(item => {
+                item.classList.toggle('active', item.dataset.recid === recId);
+            });
+
+            selectedRecId = recId;
+
+            // 加载并显示详情
+            try {
+                await loadWeaponDetail(recId);
+            } catch (error) {
+                detailPanelEl.innerHTML = `<div class="error">加载详情失败：${error.message}</div>`;
+            }
+        }
+
+        // 加载武器详情
+        async function loadWeaponDetail(recId) {
+            detailPanelEl.innerHTML = '<div class="loading">加载详情中...</div>';
+
+            try {
+                console.log('正在加载武器详情 RecId:', recId);
+                const response = await fetch(`${API_BASE}/id/${recId}`);
+                console.log('响应状态:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('武器详情数据:', data);
+                renderWeaponDetail(data);
+            } catch (error) {
+                console.error('加载详情失败:', error);
+                detailPanelEl.innerHTML = `<div class="error">加载详情失败：${error.message}</div>`;
+            }
+        }
+
+        // 渲染武器详情
+        function renderWeaponDetail(data) {
+            // 优先使用 RowDescription，如果没有则显示第一个非空字符串字段
+            let displayName = data.RowDescription || '未命名';
+            
+            // 如果显示名称还是 null/undefined，尝试找其他有意义的字段
+            if (!displayName || displayName === 'None' || displayName === 'null') {
+                // displayName = data.Name || data.rowName || `武器 #${data.RecId}`;
+                displayName = data.Name;
+            }
+            
+            // 转换字段名
+            const transformedData = transformFieldNames(data);
+            
+            let html = `
+                <div class="detail-header">
+                    <div class="detail-title">${escapeHtml(displayName)}</div>
+                    <div class="detail-recid">RecId: ${data.RecId}</div>
+                </div>
+                <div class="json-container">
+                    <pre>${syntaxHighlight(JSON.stringify(transformedData, null, 2))}</pre>
+                </div>
+            `;
+
+            detailPanelEl.innerHTML = html;
+        }
+
+        // 转换字段名
+        function transformFieldNames(obj) {
+            if (!obj || typeof obj !== 'object') return obj;
+            
+            const result = {};
+            
+            for (const [key, value] of Object.entries(obj)) {
+                // 获取映射后的字段名
+                const mappedKey = fieldMapping[key] || key;
+                
+                // 递归处理嵌套对象
+                if (value && typeof value === 'object' && !Array.isArray(value)) {
+                    result[mappedKey] = transformFieldNames(value);
+                } else if (Array.isArray(value)) {
+                    result[mappedKey] = value.map(item => {
+                        if (item && typeof item === 'object') {
+                            return transformFieldNames(item);
+                        }
+                        return item;
+                    });
+                } else {
+                    result[mappedKey] = value;
+                }
+            }
+            
+            return result;
+        }
+
+        // JSON 语法高亮
+        function syntaxHighlight(json) {
+            json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?)/g, function (match) {
+                var cls = 'number';
+                if (/^"/.test(match)) {
+                    if (/:$/.test(match)) {
+                        cls = 'key';
+                    } else {
+                        cls = 'string';
+                    }
+                } else if (/true|false/.test(match)) {
+                    cls = 'boolean';
+                } else if (/null/.test(match)) {
+                    cls = 'null';
+                }
+                return '<span style="color: ' + getColor(cls) + '">' + match + '</span>';
+            });
+        }
+
+        function getColor(type) {
+            switch(type) {
+                case 'key': return '#881391';
+                case 'string': return '#22863a';
+                case 'number': return '#005cc5';
+                case 'boolean': return '#005cc5';
+                case 'null': return '#6a737d';
+                default: return '#24292e';
+            }
+        }
+
+        // HTML 转义
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // 搜索功能
+        searchInput.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+            
+            if (!searchTerm) {
+                renderWeaponList(weaponsData);
+                return;
+            }
+
+            const filtered = Object.entries(weaponsData)
+                .filter(([recId, name]) => 
+                    name.toLowerCase().includes(searchTerm) || 
+                    recId.includes(searchTerm)
+                )
+                .reduce((obj, [key, value]) => ({ ...obj, [key]: value }), {});
+            
+            renderWeaponList(filtered);
+        });
+
+        // 启动应用
+        init();
+    </script>
+</body>
+</html>
