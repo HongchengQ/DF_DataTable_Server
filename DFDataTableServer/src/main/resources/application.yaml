@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: DFDataTableServer
+  jackson:
+    # 允许字段名不带引号
+    parser:
+      allow-unquoted-field-names: true
+    # 允许单引号
+    allow-single-quotes: true
+    # 忽略未知属性
+    deserialization:
+      fail-on-unknown-properties: false
